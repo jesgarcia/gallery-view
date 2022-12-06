@@ -1,0 +1,324 @@
+/*
+Jesus Garcia
+group project
+*/
+
+
+
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+}
+
+/*navbar*/
+#navbar {
+  background-color: rgb(230, 237, 245);
+  background: linear-gradient(90deg, rgba(246,219,219,1) 0%, rgba(255,255,255,0.7959558823529411) 73%, rgba(245,241,243,1) 100%);
+  margin-top: 0px;
+  padding: 0px;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-family: 'fantasy';
+  
+}
+
+#logo-box {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+      /* ???*/
+}
+
+#logo-link {
+    height: 90%;
+}
+#logo-img {
+    height: 100%;  /* ???*/
+}
+
+#items-nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    width: 80%;
+    font-size: 1.2rem;
+    
+
+}
+
+.nav-list  {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-list li {
+    padding: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(243, 139, 97);
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: rgb(49, 25, 15);
+    font-size: 110%;
+    
+}
+
+/*catalog*/
+
+#container {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 0 10% auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#top-img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;
+}
+
+#top-img h3 {
+    color: rgb(243, 247, 243);
+    font-family:   'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.7em;
+    position: absolute;
+    width: 30%;
+    height: 50px;
+    background-color: black;
+    opacity: 0.5;
+    line-height: 50px;
+    padding-left: 5px;
+}
+
+#top-img img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    width: 30%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.img-gal {
+width: 100%;
+height: auto;
+}
+
+.card h5 {
+    color: grey;
+    font-size: 1.2em;
+}
+
+.card p {
+    color: rgb(163, 162, 162);
+    font-size: 1em;
+}
+
+#but-box {
+    background-color: rgb(235, 231, 231);
+    width: 100%; 
+    opacity: 0.4;
+    
+}
+
+.but-gal {
+    height: 40px;
+    width: 100px;
+    display: block;
+    margin: 20px 45%;
+    border-radius: 8px;
+    border-color: rgba(246,219,219,1);
+}
+
+.second {
+    display: none;
+    
+}
+
+.third {
+    display: none;
+}
+.fourth {
+    display: none;
+}
+.fifth {
+    display: none;
+}
+.sixth {
+    display: none;
+}
+.seventh {
+    display: none;
+}
+.eighth {
+    display: none;
+}
+.ninth {
+    display: none;
+}
+
+#footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0px;
+
+}
+
+#footer p {
+    color: rgb(255, 255, 255);
+}
+
+#footer-div {
+    background-color: (235, 231, 231);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 1;
+}
+
+#social-logos {
+    height: 30px;
+    width: auto;
+}
+
+#social-logos img{
+    height: 100%;
+    width: auto;
+}
+
+#email {
+    height: 30px;
+    border-radius: 6px;
+    width: 250px;
+}
+
+
+ .popup-img {
+    position: fixed;
+    height: auto;
+    width: 80%;
+    text-align: center;
+    display: none;
+}
+
+.popup-img img {
+    border:5px solid white;
+    width: 50%;
+    height: auto;
+    
+    
+
+}
+
+.popup-img span {
+    top: 1%;
+    font-size: 40px;
+    position: absolute;
+    right: 50px;    
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+
+.gal-top {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: baseline; 
+    width: 95%;
+    margin: 40px auto;
+
+}
+
+.gal-top p {
+    font-style: italic;
+}
+
+.gal-top i {
+  margin-right: 5px;
+}
+
+.gal-top hr {
+    width: 90%;
+}
+
+
+
+@media screen and (max-width: 780px) {
+
+    #container {
+        width: 100%;
+    }
+    .card {
+       width: 95%;
+       background-color: rgb(0, 0, 0);
+   }
+
+   #but-box {
+       opacity: 0.95;
+   }
+
+   
+
+   #container {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.gal-top {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: baseline; 
+    color: rgb(255, 255, 255);
+    width: 70%;
+
+}
+
+.gal-top p {
+    font-style: italic;
+}
+}
+
+
+
+@media screen and (max-width: 420px) {
+    #top-img h3 {
+        width: 50%;
+        font-size: 0.6em;
+    }
+
+    #but-box {
+        width: 100%;;
+    }
+
+    #but-box .but-gal{
+        width: 100%;
+        margin: auto;
+    }
+
+}
