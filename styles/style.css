@@ -243,9 +243,12 @@ height: auto;
         color:rgb(210,210,210);
     }
 
+
     .card-title {
     color: rgb(210, 210, 210);
    }
+
+
 
    
 
@@ -379,6 +382,7 @@ height: auto;
         margin: auto;
     }
 
+
     .title-cont {
         width: 50%;
         font-size: 0.6em;
@@ -400,4 +404,7 @@ height: auto;
     
 
     }
+
+
+}
 
