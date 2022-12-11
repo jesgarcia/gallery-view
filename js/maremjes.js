@@ -49,25 +49,42 @@
 
 
 
+      //contact us
 
 
-
-
-
-
-
-
-
-      /*
-      $('.card').on('click', function (){
-        $('body').append('<div id="dialog" title="Image"><img src="' + $(this).attr('src') + '" width="300" /></div>');
-        $('#dialog').dialog();
-    });
-
-    $(document).ready(function() {
-        $("#top-img").click(function(){
-          $.modal("<img src=\"https://i.pinimg.com/736x/36/57/b7/3657b789eb0c634712899fc94d196d9a.jpg\" style=\"\"/>");
+      function initMap() {
+        const uluru = { lat: 53.34888, lng: -6.24293 };
+        const map = new google.maps.Map(document.getElementById("map-cont"), {
+          zoom: 15,
+          center: uluru,
         });
-   });
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+      
+      window.initMap = initMap;
 
-   */
+
+
+      function val() {
+        let name = document.forms["form-cont"]["name"].value;
+        let phone = document.forms["form-cont"]["phone"].value;
+        let reason = document.forms["form-cont"]["reason"].value;
+        
+        if (name == "" || phone == "" || reason == "") {
+          alert("Please fill up all the boxes");
+          
+          return false;
+        }else {
+           alert("Your enquiry has been sent")
+        }
+      }
+
+
+
+
+
+
+    
