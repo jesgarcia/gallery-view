@@ -238,6 +238,10 @@ height: auto;
    #but-box {
        opacity: 0.95;
    }
+    
+    .card-title {
+        color:rgb(210,210,210);
+    }
 
     .card-title {
     color: rgb(210, 210, 210);
